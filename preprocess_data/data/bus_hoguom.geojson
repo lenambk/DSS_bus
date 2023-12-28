@@ -1,0 +1,706 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-12-28T05:36:57Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738813793",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ngã 4 Nguyễn Hữu Huân - Lò Sữ",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8546222,
+          21.031172
+        ]
+      },
+      "id": "node/738813793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738813822",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "24A Bà Triệu",
+        "public_transport": "platform",
+        "route_ref": "31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8513904,
+          21.0251233
+        ]
+      },
+      "id": "node/738813822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738814524",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Đối diện 16 Hai Bà Trưng",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8539959,
+          21.0238501
+        ]
+      },
+      "id": "node/738814524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738814587",
+        "bus": "yes",
+        "description": "Ticket to the airport:35k",
+        "highway": "bus_stop",
+        "name": "23 Hàng Tre",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8556974,
+          21.0320235
+        ]
+      },
+      "id": "node/738814587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738814839",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "167 Phùng Hưng",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.844933,
+          21.0306196
+        ]
+      },
+      "id": "node/738814839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738814872",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cung Thiếu nhi Hà Nội",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8556312,
+          21.0281918
+        ]
+      },
+      "id": "node/738814872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738814946",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "22B Hai Bà Trưng",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8536565,
+          21.0240139
+        ]
+      },
+      "id": "node/738814946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738814962",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cạnh phố Hàm Tử Quan (đối diện 162 Trần Quang Khải)",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.856614,
+          21.0317272
+        ]
+      },
+      "id": "node/738814962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738815143",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cung Văn hóa Hữu nghị Việt Xô",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8440639,
+          21.0232537
+        ]
+      },
+      "id": "node/738815143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738815164",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Trước phố Chương Dương Độ (đối diện 198 Trần Quang Khải)",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8583718,
+          21.0281939
+        ]
+      },
+      "id": "node/738815164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738815169",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "37 Hai Bà Trưng",
+        "public_transport": "platform",
+        "route_ref": "2;8B;9;34;40;45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8501378,
+          21.024976
+        ]
+      },
+      "id": "node/738815169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738815218",
+        "addr:street": "Đường Trần Quang Khải",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "3,10,34,42,43,55,86,205,208",
+        "name": "162 Trần Quang Khải",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8562995,
+          21.0317035
+        ]
+      },
+      "id": "node/738815218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738815373",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ngã 3 Lê Thái Tổ",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8512802,
+          21.0283461
+        ]
+      },
+      "id": "node/738815373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738815678",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "29 Hàng Bài",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.852711,
+          21.0230605
+        ]
+      },
+      "id": "node/738815678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738815771",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nhà Hát Lớn Hà Nội",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.857231,
+          21.0233761
+        ]
+      },
+      "id": "node/738815771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738815776",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "65 Quán Sứ",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8448452,
+          21.0237936
+        ]
+      },
+      "id": "node/738815776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738815783",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "54 Lý Thường Kiệt",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8455685,
+          21.0248407
+        ]
+      },
+      "id": "node/738815783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3887711843",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "49 Hai Bà Trưng",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465567,
+          21.0260364
+        ]
+      },
+      "id": "node/3887711843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4017540901",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "28 Đường Thành",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8470913,
+          21.0310783
+        ]
+      },
+      "id": "node/4017540901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4153286091",
+        "highway": "bus_stop",
+        "name": "Trạm Xe Bus Vietnam Airlines Minibus",
+        "public_transport": "platform",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8499938,
+          21.0262081
+        ]
+      },
+      "id": "node/4153286091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4292651591",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "6-8 Tràng Thi",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8495445,
+          21.0265869
+        ]
+      },
+      "id": "node/4292651591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4292785590",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Việt Đức",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465399,
+          21.0274426
+        ]
+      },
+      "id": "node/4292785590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4448611389",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bưu điện Hà Nội",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8535908,
+          21.0270012
+        ]
+      },
+      "id": "node/4448611389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4539039489",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "48 Hai Bà Trưng",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8508194,
+          21.0249112
+        ]
+      },
+      "id": "node/4539039489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5061374323",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Phụ sản Trung ương - Đối diện số 4 Triệu Quốc Đạt",
+        "name:en": "National Hospital of Obstetrics and Gynecology",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8476217,
+          21.0266503
+        ]
+      },
+      "id": "node/5061374323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5485662135",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bờ Hồ",
+        "public_transport": "platform",
+        "source": "grab_hanoi_2018_t1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8520596,
+          21.0318105
+        ]
+      },
+      "id": "node/5485662135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5561070622",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "6C Phan Chu Trinh",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8568734,
+          21.0235986
+        ]
+      },
+      "id": "node/5561070622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6206929385",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "86",
+        "name": "Khách sạn Melia",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8478345,
+          21.0241676
+        ]
+      },
+      "id": "node/6206929385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6257442385",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "59 Lý Thường Kiệt",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8478521,
+          21.0240466
+        ]
+      },
+      "id": "node/6257442385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7132790440",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "54 Nguyễn Hữu Huân",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8544073,
+          21.0333135
+        ]
+      },
+      "id": "node/7132790440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7185567066",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Đối diện Tháp Hà Nội",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8466533,
+          21.0261411
+        ]
+      },
+      "id": "node/7185567066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8259365871",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ngân hàng Nhà nước",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8562766,
+          21.0267045
+        ]
+      },
+      "id": "node/8259365871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8835043628",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viện Quy hoạch Thủy lợi",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8561851,
+          21.0319394
+        ]
+      },
+      "id": "node/8835043628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8836623314",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Việt Đức - Đối diện số 10 Quán Sứ",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465351,
+          21.0294659
+        ]
+      },
+      "id": "node/8836623314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8837631356",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vườn hoa 19-8",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.857025,
+          21.0231148
+        ]
+      },
+      "id": "node/8837631356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8923111206",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "44 Lý Thường Kiệt",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8488793,
+          21.0238525
+        ]
+      },
+      "id": "node/8923111206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10810844705",
+        "highway": "bus_stop",
+        "name:en": "Bus 86 to Noi Bai Airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8480016,
+          21.0239798
+        ]
+      },
+      "id": "node/10810844705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10840953005",
+        "highway": "bus_stop",
+        "name:en": "86 bus to airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8556914,
+          21.0320386
+        ]
+      },
+      "id": "node/10840953005"
+    }
+  ]
+}
