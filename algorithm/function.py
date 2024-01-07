@@ -7,6 +7,9 @@ def get_oneway_id(file_path):
     "hàm xử lý data đường 1 chiều từ file .geojson"
     oneway_id = []
     bus_name = []
+
+    right = []
+    left = []
     with open(file_path, 'r', encoding='utf-8' ) as file:
         f = file.read()
         data_geojson = json.loads(f)
@@ -14,16 +17,22 @@ def get_oneway_id(file_path):
         for way in data_geojson['features']:
             if 'properties' in way and 'oneway' in way['properties'] and way['properties']['oneway'] == 'yes':
                 oneway_id.append(way['properties']['@id'])
-            if 'properties' in way and 'name' in way['properties']:
-                bus_name.append(way['properties']['name'])
-    return oneway_id, bus_name
+            # if 'properties' in way and 'name' in way['properties']:
+            #     bus_name.append(way['properties']['name'])
+            if 'properties' in way and 'name' in way['properties'] and "side" in way['properties']:
+                if way['properties']["side"] == "1":
+                    right.append(way['properties']['@id'])
+                if way['properties']["side"] == "0":
+                    left.append(way['properties']['@id'])
+
+    return oneway_id, right, left
 
 # file = 'bus_stop.geojson'
 file = 'hoguom.geojson'
 file_path = os.path.join(os.getcwd(), '..', 'preprocess_data', 'data', file)
 
 gdf = gpd.read_file(file_path)
-oneway_id, bus_id = get_oneway_id(file_path)
+oneway_id, right, left = get_oneway_id(file_path)
 
 file_bus = 'bus.geojson'
 file_bus_path = os.path.join(os.getcwd(), '..', 'preprocess_data', 'data', file_bus)
@@ -31,7 +40,7 @@ file_bus_path = os.path.join(os.getcwd(), '..', 'preprocess_data', 'data', file_
 gdf_bus = gpd.read_file(file_bus_path)
 
 # tìm điểm xe buýt gần với điểm đã chọn nhất
-def get_nearest_bus(point, type):
+def get_nearest_bus(point):
     gdf_bus['distance'] = gdf_bus['geometry'].distance(point)
     nearest_bus = gdf_bus.loc[gdf_bus['distance'].idxmin()]
     return nearest_bus['geometry']
@@ -101,21 +110,34 @@ def get_nearest_point(point, type):
             point_B = None
 
     # Xử lý trường hợp điểm khởi đầu và điểm kết thúc xe buýt phải là điểm nằm bên phải
-    if type == 'start':
-        if k_b > k_a:
-            point_A = point_B
-        point_B = None
-    elif type == "target":
-        if k_b < k_a:
-            point_A = point_B
-        point_B = None
+    if way_id not in oneway_id and (way_id in left or way_id in right):
+        try:
+            if type == 'start':
+                if way_id in right:
+                    if k_b > k_a:
+                        point_A = point_B
+                    point_B = None
+                if way_id in left:
+                    if k_b < k_a:
+                        point_A = point_B
+                    point_B = None
+            elif type == "target":
+                if way_id in right:
+                    if k_b < k_a:
+                        point_A = point_B
+                    point_B = None
+                if way_id in left:
+                    if k_b > k_a:
+                        point_A = point_B
+                    point_B = None
+        except Exception as err:
+            print('err:', err)
     return point_H, point_A, point_B, name
 
 
 def get_children(point, name_start, name_target):
     gdf['distance'] = gdf['geometry'].distance(point)
     lines = gdf.loc[gdf['distance'] == 0]
-    print('line:', list(lines['name'])[0])
     children = []
     if not lines.empty: # Nếu point đang nằm trên 1 đường nào đó
         for row in lines.itertuples(): # duyệt qua các đường chứa point ( có case: point là giao điểm của nhiều đường)

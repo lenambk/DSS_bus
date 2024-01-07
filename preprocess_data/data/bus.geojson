@@ -11,7 +11,7 @@
         "bus": "yes",
         "highway": "bus_stop",
         "name": "80 Trần Hưng Đạo - Bộ Giao thông Vận tải",
-        "public_transport": "platform",
+        "public_transport": "platform"
       },
       "geometry": {
         "type": "Point",
@@ -48,7 +48,8 @@
         "bus": "yes",
         "highway": "bus_stop",
         "name": "Đối diện 16 Hai Bà Trưng",
-        "public_transport": "platform"
+        "public_transport": "platform",
+        "side":"1"
       },
       "geometry": {
         "type": "Point",
@@ -66,7 +67,8 @@
         "bus": "yes",
         "highway": "bus_stop",
         "name": "18 Lý Thường Kiệt",
-        "public_transport": "platform"
+        "public_transport": "platform",
+        "side":"1"
       },
       "geometry": {
         "type": "Point",
@@ -138,7 +140,8 @@
         "bus": "yes",
         "highway": "bus_stop",
         "name": "22B Hai Bà Trưng",
-        "public_transport": "platform"
+        "public_transport": "platform",
+        "side":"1"
       },
       "geometry": {
         "type": "Point",
@@ -194,7 +197,8 @@
         "highway": "bus_stop",
         "name": "37 Hai Bà Trưng",
         "public_transport": "platform",
-        "route_ref": "2;8B;9;34;40;45"
+        "route_ref": "2;8B;9;34;40;45",
+        "side":"0"
       },
       "geometry": {
         "type": "Point",
@@ -378,7 +382,8 @@
         "highway": "bus_stop",
         "name": "Đối diện 39 Lý Thường Kiệt",
         "public_transport": "platform",
-        "shelter": "no"
+        "shelter": "no",
+        "side":"0"
       },
       "geometry": {
         "type": "Point",
@@ -396,7 +401,8 @@
         "bus": "yes",
         "highway": "bus_stop",
         "name": "49 Hai Bà Trưng",
-        "public_transport": "platform"
+        "public_transport": "platform",
+        "side":"0"
       },
       "geometry": {
         "type": "Point",
@@ -489,7 +495,8 @@
         "bus": "yes",
         "highway": "bus_stop",
         "name": "48 Hai Bà Trưng",
-        "public_transport": "platform"
+        "public_transport": "platform",
+        "side":"1"
       },
       "geometry": {
         "type": "Point",
@@ -566,7 +573,8 @@
         "lit": "no",
         "name": "16 Trần Hưng Đạo",
         "operator": "Hanoibus",
-        "public_transport": "platform"
+        "public_transport": "platform",
+        "side":"1"
       },
       "geometry": {
         "type": "Point",
@@ -625,7 +633,8 @@
         "highway": "bus_stop",
         "name": "59 Lý Thường Kiệt",
         "public_transport": "platform",
-        "shelter": "yes"
+        "shelter": "yes",
+        "side":"0"
       },
       "geometry": {
         "type": "Point",
@@ -698,7 +707,8 @@
         "bus": "yes",
         "highway": "bus_stop",
         "name": "67 Trần Hưng Đạo",
-        "public_transport": "platform"
+        "public_transport": "platform",
+        "side":"0"
       },
       "geometry": {
         "type": "Point",
@@ -716,7 +726,8 @@
         "bus": "yes",
         "highway": "bus_stop",
         "name": "13A Trần Hưng Đạo",
-        "public_transport": "platform"
+        "public_transport": "platform",
+        "side":"0"
       },
       "geometry": {
         "type": "Point",
@@ -770,7 +781,8 @@
         "bus": "yes",
         "highway": "bus_stop",
         "name": "25 Lý Thường Kiệt",
-        "public_transport": "platform"
+        "public_transport": "platform",
+        "side":"0"
       },
       "geometry": {
         "type": "Point",
@@ -788,7 +800,8 @@
         "bus": "yes",
         "highway": "bus_stop",
         "name": "Vườn hoa 19-8",
-        "public_transport": "platform"
+        "public_transport": "platform",
+        "side":"1"
       },
       "geometry": {
         "type": "Point",
@@ -806,7 +819,8 @@
         "bus": "yes",
         "highway": "bus_stop",
         "name": "32 Trần Hưng Đạo",
-        "public_transport": "platform"
+        "public_transport": "platform",
+        "side":"1"
       },
       "geometry": {
         "type": "Point",
@@ -826,7 +840,8 @@
         "highway": "bus_stop",
         "name": "44 Lý Thường Kiệt",
         "public_transport": "platform",
-        "shelter": "no"
+        "shelter": "no",
+        "side":"1"
       },
       "geometry": {
         "type": "Point",
@@ -844,7 +859,8 @@
         "bus": "yes",
         "highway": "bus_stop",
         "name": "Đối diện số 1A Tràng Tiền - Tập đoàn Hóa chất Việt Nam",
-        "public_transport": "platform"
+        "public_transport": "platform",
+        "side":"0"
       },
       "geometry": {
         "type": "Point",

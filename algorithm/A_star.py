@@ -1,15 +1,11 @@
-from .func import *
+from .function import *
 import queue
 
 def search(start, target):
     # Xử lý vị trí bất kì của start ---> trả ra điểm nằm trên các đường
-    bus_start = get_nearest_bus(start, type='start')
-    bus_target = get_nearest_bus(target, type='target')
-    print('start:', bus_start)
-    print('targer:', bus_target)
-    # new_start, start1, start2 = get_nearest_point(start, type='start')
+    bus_start = get_nearest_bus(start)
+    bus_target = get_nearest_bus(target)
     new_start, start1, start2, name_start = get_nearest_point(bus_start, type='start')
-    # new_target, target1, target2 = get_nearest_point(target, type='target')
     new_target, target1, target2, name_target = get_nearest_point(bus_target, type='target')
 
     targets = [target1, ]
