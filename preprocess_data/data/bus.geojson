@@ -2,25 +2,25 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2023-12-28T05:36:57Z",
+  "timestamp": "2023-12-31T15:41:06Z",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/738813793",
+        "@id": "node/738813580",
         "bus": "yes",
         "highway": "bus_stop",
-        "name": "Ngã 4 Nguyễn Hữu Huân - Lò Sữ",
-        "public_transport": "platform"
+        "name": "80 Trần Hưng Đạo - Bộ Giao thông Vận tải",
+        "public_transport": "platform",
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8546222,
-          21.031172
+          105.8458686,
+          21.0230126
         ]
       },
-      "id": "node/738813793"
+      "id": "node/738813580"
     },
     {
       "type": "Feature",
@@ -30,7 +30,7 @@
         "highway": "bus_stop",
         "name": "24A Bà Triệu",
         "public_transport": "platform",
-        "route_ref": "31"
+        "route_ref": "31",
       },
       "geometry": {
         "type": "Point",
@@ -62,39 +62,56 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/738814587",
+        "@id": "node/738814528",
         "bus": "yes",
-        "description": "Ticket to the airport:35k",
         "highway": "bus_stop",
-        "name": "23 Hàng Tre",
+        "name": "18 Lý Thường Kiệt",
         "public_transport": "platform"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8556974,
-          21.0320235
+          105.855276,
+          21.0219947
         ]
       },
-      "id": "node/738814587"
+      "id": "node/738814528"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/738814839",
+        "@id": "node/738814750",
         "bus": "yes",
         "highway": "bus_stop",
-        "name": "167 Phùng Hưng",
+        "name": "61 Phan Chu Trinh",
         "public_transport": "platform"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.844933,
-          21.0306196
+          105.8552593,
+          21.0186738
         ]
       },
-      "id": "node/738814839"
+      "id": "node/738814750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738814833",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cổng Bệnh viện Quân y 108",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8607263,
+          21.0184313
+        ]
+      },
+      "id": "node/738814833"
     },
     {
       "type": "Feature",
@@ -135,38 +152,21 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/738814962",
+        "@id": "node/738815124",
         "bus": "yes",
         "highway": "bus_stop",
-        "name": "Cạnh phố Hàm Tử Quan (đối diện 162 Trần Quang Khải)",
-        "public_transport": "platform"
+        "name": "Thư viện Hà Nội - 54E Trần Hưng Đạo",
+        "public_transport": "platform",
+        "route_ref": "3;11;38;43;52"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.856614,
-          21.0317272
+          105.8506652,
+          21.0215815
         ]
       },
-      "id": "node/738814962"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/738815143",
-        "bus": "yes",
-        "highway": "bus_stop",
-        "name": "Cung Văn hóa Hữu nghị Việt Xô",
-        "public_transport": "platform"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8440639,
-          21.0232537
-        ]
-      },
-      "id": "node/738815143"
+      "id": "node/738815124"
     },
     {
       "type": "Feature",
@@ -208,22 +208,39 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/738815218",
-        "addr:street": "Đường Trần Quang Khải",
+        "@id": "node/738815312",
         "bus": "yes",
         "highway": "bus_stop",
-        "local_ref": "3,10,34,42,43,55,86,205,208",
-        "name": "162 Trần Quang Khải",
+        "name": "58B Bà Triệu",
+        "public_transport": "platform",
+        "route_ref": "8;9;31;36"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8503463,
+          21.0219618
+        ]
+      },
+      "id": "node/738815312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738815334",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Đối diện Bệnh viện Trung ương Quân đội 108",
         "public_transport": "platform"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8562995,
-          21.0317035
+          105.8607092,
+          21.0185284
         ]
       },
-      "id": "node/738815218"
+      "id": "node/738815334"
     },
     {
       "type": "Feature",
@@ -243,6 +260,60 @@
         ]
       },
       "id": "node/738815373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738815407",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Đối diện Đại học Dược Hà Nội",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8578377,
+          21.0215034
+        ]
+      },
+      "id": "node/738815407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738815474",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Trường Tiểu học Võ Thị Sáu - 35 Trần Hưng Đạo",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8541393,
+          21.020342
+        ]
+      },
+      "id": "node/738815474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738815662",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "55 Quang Trung - Đối diện hồ Thiền Quang",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8474186,
+          21.0181608
+        ]
+      },
+      "id": "node/738815662"
     },
     {
       "type": "Feature",
@@ -283,38 +354,40 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/738815776",
+        "@id": "node/1008753034",
         "bus": "yes",
         "highway": "bus_stop",
-        "name": "65 Quán Sứ",
+        "name": "92-94 Bà Triệu",
         "public_transport": "platform"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8448452,
-          21.0237936
+          105.8494294,
+          21.0191699
         ]
       },
-      "id": "node/738815776"
+      "id": "node/1008753034"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/738815783",
+        "@id": "node/3146565103",
+        "bench": "no",
         "bus": "yes",
         "highway": "bus_stop",
-        "name": "54 Lý Thường Kiệt",
-        "public_transport": "platform"
+        "name": "Đối diện 39 Lý Thường Kiệt",
+        "public_transport": "platform",
+        "shelter": "no"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8455685,
-          21.0248407
+          105.8517426,
+          21.0230367
         ]
       },
-      "id": "node/738815783"
+      "id": "node/3146565103"
     },
     {
       "type": "Feature",
@@ -333,24 +406,6 @@
         ]
       },
       "id": "node/3887711843"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4017540901",
-        "bus": "yes",
-        "highway": "bus_stop",
-        "name": "28 Đường Thành",
-        "public_transport": "platform"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8470913,
-          21.0310783
-        ]
-      },
-      "id": "node/4017540901"
     },
     {
       "type": "Feature",
@@ -467,21 +522,60 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/5485662135",
+        "@id": "node/5061383221",
         "bus": "yes",
         "highway": "bus_stop",
-        "name": "Bờ Hồ",
-        "public_transport": "platform",
-        "source": "grab_hanoi_2018_t1"
+        "name": "25A-25B Phố Huế",
+        "public_transport": "platform"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8520596,
-          21.0318105
+          105.8517873,
+          21.0188689
         ]
       },
-      "id": "node/5485662135"
+      "id": "node/5061383221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5362040321",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "40 Ngô Quyền",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8544445,
+          21.0228643
+        ]
+      },
+      "id": "node/5362040321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5462421044",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "16 Trần Hưng Đạo",
+        "operator": "Hanoibus",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8574381,
+          21.0195048
+        ]
+      },
+      "id": "node/5462421044"
     },
     {
       "type": "Feature",
@@ -545,24 +639,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/7132790440",
-        "bus": "yes",
-        "highway": "bus_stop",
-        "name": "54 Nguyễn Hữu Huân",
-        "public_transport": "platform"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8544073,
-          21.0333135
-        ]
-      },
-      "id": "node/7132790440"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/7185567066",
         "bus": "yes",
         "highway": "bus_stop",
@@ -577,6 +653,79 @@
         ]
       },
       "id": "node/7185567066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7825858601",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bác Cổ",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8606807,
+          21.0235859
+        ]
+      },
+      "id": "node/7825858601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7825858603",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Đại học Khoa học Tự nhiên",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8583207,
+          21.020498
+        ]
+      },
+      "id": "node/7825858603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8205232247",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "67 Trần Hưng Đạo",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8489463,
+          21.0218851
+        ]
+      },
+      "id": "node/8205232247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8209169359",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "13A Trần Hưng Đạo",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8574139,
+          21.0193961
+        ]
+      },
+      "id": "node/8209169359"
     },
     {
       "type": "Feature",
@@ -599,38 +748,38 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/8835043628",
+        "@id": "node/8772715681",
         "bus": "yes",
         "highway": "bus_stop",
-        "name": "Viện Quy hoạch Thủy lợi",
+        "name": "Vườn hoa Trần Quang Khải",
         "public_transport": "platform"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8561851,
-          21.0319394
+          105.859646,
+          21.0252806
         ]
       },
-      "id": "node/8835043628"
+      "id": "node/8772715681"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/8836623314",
+        "@id": "node/8822946769",
         "bus": "yes",
         "highway": "bus_stop",
-        "name": "Bệnh viện Việt Đức - Đối diện số 10 Quán Sứ",
+        "name": "25 Lý Thường Kiệt",
         "public_transport": "platform"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          105.8465351,
-          21.0294659
+          105.8547847,
+          21.0219448
         ]
       },
-      "id": "node/8836623314"
+      "id": "node/8822946769"
     },
     {
       "type": "Feature",
@@ -649,6 +798,24 @@
         ]
       },
       "id": "node/8837631356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8895558436",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "32 Trần Hưng Đạo",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8545074,
+          21.02039
+        ]
+      },
+      "id": "node/8895558436"
     },
     {
       "type": "Feature",
@@ -673,6 +840,24 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/8925798722",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Đối diện số 1A Tràng Tiền - Tập đoàn Hóa chất Việt Nam",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8587472,
+          21.0248072
+        ]
+      },
+      "id": "node/8925798722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/10810844705",
         "highway": "bus_stop",
         "name:en": "Bus 86 to Noi Bai Airport"
@@ -685,22 +870,6 @@
         ]
       },
       "id": "node/10810844705"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/10840953005",
-        "highway": "bus_stop",
-        "name:en": "86 bus to airport"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          105.8556914,
-          21.0320386
-        ]
-      },
-      "id": "node/10840953005"
     }
   ]
 }

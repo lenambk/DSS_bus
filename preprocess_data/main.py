@@ -10,13 +10,13 @@ def buildMap(path, geojson_file):
         result = chardet.detect(f.read())
     with io.open(geojson_file, 'r', encoding=result['encoding']) as f:
         data = json.load(f)
-
-    map = folium.Map(location=(21.0077613, 105.8371812), zoom_start=17)
+        #:21.0230605,105.852711
+    map = folium.Map(location=(21.0230605, 105.852711), zoom_start=17)
 
     folium.GeoJson(
         data,
-        name="Haibatrung-Hanoi-Vietnam",
-        tooltip = folium.GeoJsonTooltip(fields=["@id","name", "highway"]),
+        name="Hoankiem-Hanoi-Vietnam",
+        tooltip = folium.GeoJsonTooltip(fields=["@id", "highway"]),
         style_function=lambda x: {
             # "fillColor": "#ffff00",
             "color": "rgba(0, 0, 0, 0)",
@@ -51,8 +51,8 @@ def addBlockToHtml(path):
 
 
 #---------------main-----------------
-file = 'bus_stop.geojson'
-# file = 'TrucBachMap.geojson'
+# file = 'bus_stop.geojson'
+file = 'hoguom.geojson'
 
 geojson_file = 'data/' + file
 path = "../website/app/templates/base/map.html" # Nơi lưu trữ dữ liệu file html của website

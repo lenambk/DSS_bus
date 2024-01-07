@@ -42,7 +42,8 @@ def searchView(request, searchText):
     x1, y1, x2, y2 = [float(i) for i in searchText.split('_')]
     start = Point(x1, y1)
     target = Point(x2, y2)
-
+    print('start:', start)
+    print('target:', target)
     t_start = datetime.now()
     start_route, route, end_route = A_star.search(start, target)
     t_end = datetime.now()
